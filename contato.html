@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Nexus Games | Contato</title>
+    <link rel="stylesheet" href="CSS/style.css">
+</head>
+
+<body>
+
+    <header id="main-header">
+        <div class="container header-container">
+            <a href="index.html" class="logo-link">
+                <img src="img/logo.png" class="logo-img">
+                <span class="logo-text">NEXUS</span>
+            </a>
+        </div>
+    </header>
+
+    <main class="container" style="padding-top: 3rem;">
+        <div class="contact-grid">
+
+            <section class="contact-card">
+                <h2>Envie sua Mensagem</h2>
+                <form id="contact-form" onsubmit="event.preventDefault(); alert('Mensagem Enviada!');">
+
+                    <div class="form-group-row">
+                        <div class="form-group">
+                            <label for="contact-name">Seu Nome</label>
+                            <input type="text" id="contact-name" class="form-control" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="contact-email">Seu E-mail</label>
+                            <input type="email" id="contact-email" class="form-control" required>
+                        </div>
+                    </div>
+                    <aside class="info-sidebar">
+
+                        <div class="info-box">
+                            <h3>QG do Nexus Games</h3>
+                            <ul>
+                                <li><span class="info-icon">📍</span> <strong>Endereço:</strong> Av. da Tecnologia, 1337
+                                    - SP</li>
+                                <li><span class="info-icon">✉️</span> <strong>E-mail:</strong>
+                                    contato@nexusgamesportal.com</li>
+                            </ul>
+                        </div>
+
+                        <div class="info-box">
+                            <h3>Perguntas Frequentes</h3>
+                            <div class="faq-container">
+                                <details>
+                                    <summary>Como solicitar chaves de jogos?</summary>
+                                    <div class="faq-content">
+                                        Selecione a opção "Imprensa" e envie seus links de canais de conteúdo gamer.
+                                    </div>
+                                </details>
+                                <details>
+                                    <summary>Os jogos listados são gratuitos?</summary>
+                                    <div class="faq-content">
+                                        Alguns jogos como o Astral Explorer são gratuitos para jogar.
+                                    </div>
+                                </details>
+                            </div>
+                        </div>
+
+                    </aside>
+        </div>
+    </main>
+
+    <footer id="main-footer">
+        <div class="container footer-top">
+            <div class="footer-about">
+                <div class="footer-logo">
+                    <img src="img/logo.png" class="footer-logo-img">
+                    <span class="footer-logo-text">NEXUS GAMES</span>
+                </div>
+            </div>
+        </div>
+    </footer>
+</body>
+
+</html>

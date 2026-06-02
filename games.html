@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nexus Games | Biblioteca de Jogos</title>
+    <link rel="stylesheet" href="CSS/style.css">
+    <style>
+        .filter-alt-space {
+            filter: hue-rotate(150deg);
+        }
+
+        .filter-alt-cyber {
+            filter: hue-rotate(240deg) contrast(1.1);
+        }
+
+        .filter-alt-fantasy {
+            filter: sepia(0.4) saturate(1.8) brightness(0.9);
+        }
+    </style>
+</head>
+
+<body>
+
+    <header id="main-header">
+        <div class="container header-container">
+            <a href="index.html" class="logo-link">
+                <img src="IMG/Logo.png" class="logo-img" alt="Nexus Games logo">
+                <span class="logo-text">NEXUS</span>
+            </a>
+
+            <nav class="nav-menu">
+                <ul class="nav-list">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="games.html" class="active">Jogos</a></li>
+                    <li><a href="contato.html">Contato</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main class="container" style="padding-top: 3rem; padding-bottom: 3rem;">
+        <header class="catalog-header">
+            <h1 class="section-title">Biblioteca de Jogos</h1>
+            <p class="catalog-desc">Explore nossa seleção exclusiva de jogos.</p>
+        </header>
+
+        <section class="catalog-grid">
+            <article class="game-card">
+                <div class="card-img-wrapper">
+                    <span class="game-badge action">Ação / RPG</span>
+                    <img src="IMG/game_cyber.svg" alt="Neon Requiem screenshot">
+                </div>
+                <div class="card-body">
+                    <h2 class="card-title">Neon Requiem</h2>
+                    <div class="game-specs">
+                        <span>🎮 PC / Console</span>
+                        <span>⭐ 4.8 / 5.0</span>
+                    </div>
+                    <p class="card-text">RPG de ação cyberpunk futurista.</p>
+                    <div class="card-footer">
+                        <p>Preço: <span>R$ 199,90</span></p>
+                        <a href="contato.html" class="btn btn-secondary">Comprar</a>
+                    </div>
+                </div>
+            </article>
+
+            <article class="game-card">
+                <div class="card-img-wrapper">
+                    <span class="game-badge">Estratégia</span>
+                    <img src="IMG/game_space.svg" class="filter-alt-space" alt="Chronicles of Void screenshot">
+                </div>
+                <div class="card-body">
+                    <h2 class="card-title">Chronicles of Void</h2>
+                    <div class="game-specs">
+                        <span>🎮 PC / Console</span>
+                        <span>⭐ 4.6 / 5.0</span>
+                    </div>
+                    <p class="card-text">Comande frotas espaciais colossais.</p>
+                    <div class="card-footer">
+                        <p>Preço: <span>R$ 149,90</span></p>
+                        <a href="contato.html" class="btn btn-secondary">Comprar</a>
+                    </div>
+                </div>
+            </article>
+
+            <article class="game-card">
+                <div class="card-img-wrapper">
+                    <span class="game-badge action">Ação / Multiplayer</span>
+                    <img src="IMG/game_cyber.svg" class="filter-alt-cyber" alt="CyberPunk Arena screenshot">
+                </div>
+                <div class="card-body">
+                    <h2 class="card-title">CyberPunk Arena</h2>
+                    <div class="game-specs">
+                        <span>🎮 PC</span>
+                        <span>⭐ 4.4 / 5.0</span>
+                    </div>
+                    <p class="card-text">Confronte rivais em arenas neon e domine o circuito.</p>
+                    <div class="card-footer">
+                        <p>Disponível: <span>PC</span></p>
+                        <a href="contato.html" class="btn btn-secondary">Saiba mais</a>
+                    </div>
+                </div>
+            </article>
+
+            <article class="game-card">
+                <div class="card-img-wrapper">
+                    <span class="game-badge rpg">Fantasia</span>
+                    <img src="IMG/game_fantasia.svg" class="filter-alt-fantasy" alt="Lendas de Aëthria screenshot">
+                </div>
+                <div class="card-body">
+                    <h2 class="card-title">Lendas de Aëthria</h2>
+                    <div class="game-specs">
+                        <span>🎮 PC / Console</span>
+                        <span>⭐ 4.9 / 5.0</span>
+                    </div>
+                    <p class="card-text">Aventure-se em reinos encantados e forje seu destino.</p>
+                    <div class="card-footer">
+                        <p>Preço: <span>R$ 179,90</span></p>
+                        <a href="contato.html" class="btn btn-secondary">Ver detalhes</a>
+                    </div>
+                </div>
+            </article>
+        </section>
+    </main>
+</body>
+
+</html>
